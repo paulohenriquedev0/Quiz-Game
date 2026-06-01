@@ -16,48 +16,48 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
-    question: "What is the capital of France?",
+    question: "Qual tag HTML é utilizada para linkar um arquivo CSS externo?",
     answers: [
-      { text: "London", correct: false },
-      { text: "Berlin", correct: false },
-      { text: "Paris", correct: true },
-      { text: "Madrid", correct: false },
+      { text: "<script>", correct: false },
+      { text: "<link>", correct: true },
+      { text: "<style>", correct: false },
+      { text: "<href>", correct: false },
     ],
   },
   {
-    question: "Which planet is known as the Red Planet?",
+    question: "Qual método JavaScript é usado para adicionar um elemento ao final de um array?",
     answers: [
-      { text: "Venus", correct: false },
-      { text: "Mars", correct: true },
-      { text: "Jupiter", correct: false },
-      { text: "Saturn", correct: false },
+      { text: "pop()", correct: false },
+      { text: "shift()", correct: false },
+      { text: "push()", correct: true },
+      { text: "unshift()", correct: false },
     ],
   },
   {
-    question: "What is the largest ocean on Earth?",
+    question: "Em uma API RESTful, qual método HTTP é o mais adequado para ATUALIZAR um recurso existente?",
     answers: [
-      { text: "Atlantic Ocean", correct: false },
-      { text: "Indian Ocean", correct: false },
-      { text: "Arctic Ocean", correct: false },
-      { text: "Pacific Ocean", correct: true },
+      { text: "GET", correct: false },
+      { text: "POST", correct: false },
+      { text: "DELETE", correct: false },
+      { text: "PUT / PATCH", correct: true },
     ],
   },
   {
-    question: "Which of these is NOT a programming language?",
+    question: "No SQL, qual comando é utilizado para buscar dados de uma tabela?",
     answers: [
-      { text: "Java", correct: false },
-      { text: "Python", correct: false },
-      { text: "Banana", correct: true },
-      { text: "JavaScript", correct: false },
+      { text: "GET", correct: false },
+      { text: "SELECT", correct: true },
+      { text: "SEARCH", correct: false },
+      { text: "FIND", correct: false },
     ],
   },
   {
-    question: "What is the chemical symbol for gold?",
+    question: "Qual comando Git é usado para enviar suas alterações locais para o repositório remoto?",
     answers: [
-      { text: "Go", correct: false },
-      { text: "Gd", correct: false },
-      { text: "Au", correct: true },
-      { text: "Ag", correct: false },
+      { text: "git pull", correct: false },
+      { text: "git commit", correct: false },
+      { text: "git push", correct: true },
+      { text: "git clone", correct: false },
     ],
   },
 ];
