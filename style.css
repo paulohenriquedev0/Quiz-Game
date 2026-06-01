@@ -103,11 +103,11 @@ body {
 }
 
 .progress-bar {
-    height: 10px;
+    height: 8px;
     background-color: #f8f8f8;
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .progress {
@@ -147,8 +147,8 @@ button {
     background-color: #4e02ff;
     color: #ffffff;
     border: none;
-    border-radius: 8px;
-    padding: 16px 30px;
+    border-radius: 48px;
+    padding: 16px 32px;
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
